@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import ClassCopment from "./components/Props/ClassComp/ClassCopment";
+import Functional from "./components/Props/FunctionalComponent/Functional";
+import List from "./components/Unice/list";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <List />
+      <Functional name="This is functional component" />
+      <h1>This is class componet data passin preant to child</h1>
+      <ClassCopment name="This is class components " />
     </div>
   );
 }
