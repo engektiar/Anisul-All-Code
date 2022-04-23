@@ -1,5 +1,7 @@
 import React from "react";
-import Index from "./components/Event_Handler_Class/Index";
+import FunctionOnchange from "./components/OnChangeFunction/FunctionOnchange";
+//import EventHandlerBinding from "./components/Event_handler_binding/EventHandlerBinding";
+//import Index from "./components/Event_Handler_Class/Index";
 
 //import Main from "./components/ConditionalRendering/Main";
 //import ClassCopment from "./components/Props/ClassComp/ClassCopment";
@@ -18,8 +20,12 @@ function App() {
       <State count="0" />
       <h4>this is count state passing data</h4> 
       <Main />
-      */}
+     
       <Index />
+      
+      <EventHandlerBinding />
+       */}
+      <FunctionOnchange />
     </div>
   );
 }
